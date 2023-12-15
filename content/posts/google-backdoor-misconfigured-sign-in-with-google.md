@@ -41,7 +41,7 @@ As long as you are part of your org and you have access to your primary work ema
 So you can use that to log in to misconfigured publicly exposed internal dashboards which uses `Sign in with Google` as an authentication method.
 ## Fix
 + Don't just validate the email domain. Validate the `hd` token from Google's returned idtoken as well.
-+ Block all email of following format:
++ Block all emails of the following format so that org members can't create an alias account:
 {{< figure src="/images/google-backdoor-misconfigured-sign-in-with-google/alias-account-google-verification-email.png" title="Alias account Google verification email" >}}
 
 ## How companies responded
