@@ -31,5 +31,5 @@
 [params]
   [params.theme_config]
     appearance = "dark"
-    back_home_text = ".."
+    back_home_text = "Kumar"
     date_format = "2006-01-02"
