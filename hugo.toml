@@ -1,0 +1,4 @@
+baseURL = 'https://research.kumar.ninja/'
+languageCode = 'en-us'
+title = 'Kumar Saurabh'
+theme = 'nostyleplease'
